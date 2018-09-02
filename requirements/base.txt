@@ -1,0 +1,19 @@
+# MultiInfo SMS API dependencies
+# For development we keep them unfreezed to work and test on newest versions as soon as they are released
+# Local proprietary packages
+--find-links=requirements
+# Other dependencies
+six
+click
+click-log
+envparse
+enum34 ; python_version < '3.4'
+dynaconf==0.5.4
+pathlib ; python_version < '3.3'
+pathlib2 ; python_version < '3.3'
+python-box
+pyyaml
+requests
+
+--find-links=requirements/local
+
